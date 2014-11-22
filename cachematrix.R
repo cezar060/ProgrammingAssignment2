@@ -12,6 +12,10 @@ setmatrix <- function(y){
 
 x <<- y
 m <<- NULL
+}
+list(set = set, get = get,
+             setmean = setmean,
+             getmean = getmean)
 
 
 }
